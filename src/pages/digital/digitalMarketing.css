@@ -1,0 +1,16 @@
+
+
+
+.custom {
+    background-image: url("../../assets/webimage.jpg");
+   
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh; 
+      margin: 0; 
+      display: flex-fixed;
+      align-items: center;
+      justify-content: center;
+
+}
