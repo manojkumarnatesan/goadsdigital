@@ -1,13 +1,24 @@
 import React from "react";
-import card1 from "../assets/card1.webp";
+import webImage from "../assets/webimage.jpg";
 
 function GoAdsDigital() {
   return (
-    <div>
-      <div className="container-fluid">
-        <div className="custom">
-          <div className="row col-6 col-md-6 float-start align-items-start mt-4 position-absolute bottom-0 end-0">
-            <div className="text-center">
+    <div className="container-fluid">
+      <div className="row">
+        <div
+          className="col-12 col-md-6"
+          style={{
+            backgroundImage: `url(${webImage})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center center",
+            backgroundRepeat : "no-repeat"
+          }}
+        >
+          <div className="text-center">
+            <div
+              className="d-flex flex-column align-items-center justify-content-center"
+              style={{ height: "100vh" }}
+            >
               <h2 className="font-weight-bold">
                 Go Ads Digital Marketing Agency In Namakkal
               </h2>
@@ -27,17 +38,16 @@ function GoAdsDigital() {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="container-fluid p-4">
-        <div className="row col-12 col-md-6 float-end align-items-start mt-4 position-absolute bottom-0 end-0">
-          <div className="card w-50">
-            <div className="card-body">
-              <div>
-                <h5>Select the Service</h5>
+        <div className="container-fluid p-4">
+          <div className="row col-12 col-md-6 float-end align-items-start mt-4 position-absolute bottom-0 end-0">
+            <div className="card-body w-50">
+              <div className="card-body">
+                <h5 >Select the Service</h5>
                 <select
                   className="form-select form-select-lg mb-1"
                   aria-label="Large select example"
+                  name="service"
                 >
                   <option value="1">Digital Marketing</option>
                   <option value="2">Search Engine Optimization</option>
@@ -88,30 +98,6 @@ function GoAdsDigital() {
                 Send
               </button>
             </form>
-          </div>
-        </div>
-      </div>
-      <div className="card container text-center">
-        <h2 className="font-weight-bold">
-          Exploring The Benefits Of A Digital Company In Chennai
-        </h2>
-      </div>
-      <div
-        className="card border border-light-subtle"
-        style={{ width: "18rem" }}
-      >
-        <img src={card1} className="card-img-top" alt="..." />
-        <h3 className="text-center">Increased Efficiency And Productivity</h3>
-        <div className="card-body p-3">
-          <div class="grid text-center">
-            <div className="mx-auto p-2 g-col-6">
-              <p className="text-center">
-                Besttech Digital Company enhances efficiency and productivity
-                through its services. With their expertise, businesses can
-                streamline processes, leverage technology, and optimize digital
-                strategies, leading to improved performance and success.
-              </p>
-            </div>
           </div>
         </div>
       </div>

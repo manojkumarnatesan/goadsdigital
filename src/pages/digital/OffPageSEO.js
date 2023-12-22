@@ -3,7 +3,7 @@ import React from 'react'
 function OffPageSEO() {
   return (
     <div>
-      OffPageSEO
+      OffPageSEO supporting
       </div>
   )
 }
