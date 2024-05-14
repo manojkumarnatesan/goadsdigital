@@ -136,29 +136,25 @@ function Navbar() {
                 </li>
                 <li key="business">
                   <Link className="dropdown-item" to="BusinessWebsite">
-                    Business Website
+                    Business Card Design
                   </Link>
                 </li>
                 <li key="seo-optimized">
                   <Link className="dropdown-item" to="SeoWebsite">
-                    SEO Optimized Website
+                    ID Card Design
                   </Link>
                 </li>
                 <li key="static">
                   <Link className="dropdown-item" to="StaticWebsite">
-                    Static Website
+                    Poster Design
                   </Link>
                 </li>
                 <li key="dynamic">
                   <Link className="dropdown-item" to="DynamicWebsite">
-                    Dynamic Website
+                    Brouchere Design
                   </Link>
                 </li>
-                <li key="testimonial">
-                  <Link className="dropdown-item" to="/TestimonialWebsite">
-                    Testimonial Website
-                  </Link>
-                </li>
+               
               </ul>
             </li>
           </ul>
