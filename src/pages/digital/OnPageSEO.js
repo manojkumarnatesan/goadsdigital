@@ -2,43 +2,20 @@ import React from "react";
 
 function OnPageSEO() {
   return (
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="" class="card-img-top" alt="Card image cap" />
-            <div class="card-body">
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
-              </p>
-            </div>
-            <img src="" className="card-img-bottom" alt="Card image cap" />
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="card">
-            <img src="" class="card-img-top" alt="Card image cap" />
-            <div className="card-body">
-              <p className="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-            </div>
-            <img src="" className="card-img-bottom" alt="Card image cap" />
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="card">
-            <img src="" className="card-img-top" alt="Card image cap" />
-            <div className="card-body">
-              <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
-              </p>
-            </div>
-            <img src="" className="card-img-bottom" alt="Card image cap" />
-          </div>
+    <div className="container mt-5">
+      <div className="card">
+        <div className="card-body text-center ">
+          <p className="fs-3">
+            Besttech Digital Solutions company for graphic designing services.
+            With their expertise and creativity, they deliver innovative and
+            visually appealing designs that captivate audiences. Whether it’s
+            logo design, branding, or marketing collateral, Besttech Digital
+            Company provides unique solutions tailored to meet your business
+            needs. Their commitment to quality and originality ensures that your
+            designs stand out from the competition. Partner with Besttech
+            Digital Solutions for exceptional graphic designing services that
+            make a lasting impression.
+          </p>
         </div>
       </div>
     </div>

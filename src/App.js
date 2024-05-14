@@ -13,8 +13,10 @@ import DynamicWebsite from "./webdevelopment/dynamicWebsite";
 import SeoWebsite from "./webdevelopment/seoWebsite";
 import StaticWebsite from "./webdevelopment/staticWebsite";
 import EcommerceWebsite from "./webdevelopment/ecommerce";
-import TestimonalWebsite from "./webdevelopment/testimonalWebsite";
+import TestimonialWebsite from "./webdevelopment/testimonialWebsite";
 import GoAdsDigital from "./pages/goadsdigital";
+import Contact from "./pages/contact";
+import AboutUs from "./pages/aboutUs";
 
 const router = createBrowserRouter([
   {
@@ -25,7 +27,10 @@ const router = createBrowserRouter([
       { path: "", element: <GoAdsDigital /> },
       { path: "digitalMarketing", element: <DigitalMarketing /> },
       { path: "webDevelopment", element: <WebDevelopment /> },
-      
+      { path: "webDevelopment", element: <WebDevelopment /> },
+      { path: "webDevelopment", element: <WebDevelopment /> },
+      { path: "contact", element: <Contact /> },
+      { path: "aboutUs", element: <AboutUs /> },
     ],
   },
   { path: "onPageSEO", element: <OnPageSEO /> },
@@ -36,11 +41,8 @@ const router = createBrowserRouter([
   { path: "dynamicWebsite", element: <DynamicWebsite /> },
   { path: "seoWebsite", element: <SeoWebsite /> },
   { path: "ecommerce", element: <EcommerceWebsite /> },
-  { path: "testimonalWebsite", element: <TestimonalWebsite /> },
+  { path: "testimonialWebsite", element: <TestimonialWebsite /> },
   { path: "staticWebsite", element: <StaticWebsite /> },
-
-
- 
 ]);
 
 function App() {
