@@ -9,8 +9,7 @@ function Contact() {
           <div className="section-title">
             <h2>Contact</h2>
             <p className="text-center">
-              Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-              adipisci expedita at voluptas atque vitae autem.
+            Would You Like To Start A Project With Us?
             </p>
           </div>
 

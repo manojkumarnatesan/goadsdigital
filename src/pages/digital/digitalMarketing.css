@@ -154,3 +154,51 @@
     transform: rotate(360deg);
   }
 }
+
+/* digital marketing css */
+
+.elementor-heading-title {
+  color: #6878D6;
+  font-family: "Alegreya", Sans-serif;
+  font-size: 36px;
+  text-transform: capitalize;
+  background-color: #7bdcb5;
+  justify-content: center;
+}
+
+/* :root {
+  --widgets-spacing: 20px 20px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+} */
+.button{
+text-decoration: inherit;
+}
+
+  /* Custom CSS for red bullet points with no gap */
+  .custom-bullet {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+}
+
+.custom-bullet li {
+    position: relative; /* Position relative for the pseudo-element */
+    padding-left: 0; /* Remove left padding to eliminate gap */
+    margin-bottom: 0.5rem; /* Optional spacing between list items */
+    display: flex; /* Use flexbox to align bullet and text */
+    align-items: center; /* Center align items vertically */
+}
+
+.custom-bullet li::before {
+    content: ''; /* Empty content for the pseudo-element */
+    display: inline-block; /* Inline block for proper spacing */
+    width: 20px; /* Bullet size */
+    height: 20px; /* Bullet size */
+    background-color: red; /* Bullet color */
+    border-radius: 50%; /* Make the bullet round */
+    margin-right: 8px; /* Space between bullet and text */
+}

@@ -18,6 +18,9 @@ import GoAdsDigital from "./pages/goadsdigital";
 import Contact from "./pages/contact";
 import AboutUs from "./pages/aboutUs";
 import GraphicDesigning from "./pages/graphic/graphicDesigning";
+import AppSoftware from "./pages/appPages/appSoftware";
+import ApplicationDevelopment from "./pages/appPages/applicationDevelopment";
+import SoftwareDevelopment from "./pages/appPages/softwareDevelopment";
 
 
 import BusinessCardDesign from "./pages/graphic/businessCardDesign";
@@ -38,10 +41,11 @@ const router = createBrowserRouter([
       { path: "graphicDesigning", element: <GraphicDesigning /> },
       { path: "contact", element: <Contact /> },
       { path: "aboutUs", element: <AboutUs /> },
+      { path: "appSoftware", element: <AppSoftware /> },
     ],
   },
   { path: "onPageSEO", element: <OnPageSEO /> },
-  { path: "searchEngineOptimization", element: <SearchEngineOptimization /> }, // Corrected path
+  { path: "searchEngineOptimization", element: <SearchEngineOptimization /> }, 
   { path: "offPageSEO", element: <OffPageSEO /> },
   { path: "googleMyBusinessRanking", element: <GoogleMyBusinessRanking /> },
   { path: "businessWebsite", element: <BusinessWebsite /> },
@@ -55,6 +59,9 @@ const router = createBrowserRouter([
   { path: "IDCardDesign", element: <IDCardDesign /> },
   { path: "posterDesign", element: <PosterDesign /> },
   { path: "UIUXDesign", element: <UIUXDesign /> },
+  { path: "applicationDevelopment", element: <ApplicationDevelopment /> },
+  { path: "softwareDevelopment", element: <SoftwareDevelopment /> },
+  
 ]);
 
 function App() {

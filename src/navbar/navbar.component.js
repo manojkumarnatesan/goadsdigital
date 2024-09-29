@@ -24,9 +24,7 @@ function Navbar() {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
-         
-        </button>
+        ></button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item dropdown">
@@ -120,7 +118,7 @@ function Navbar() {
             <li className="nav-item dropdown">
               <Link
                 className="nav-link active dropdown-toggle"
-                to="webDevelopment"
+                to="graphicDesigning"
               >
                 Graphic Designing
               </Link>
@@ -135,26 +133,25 @@ function Navbar() {
                   </Link>
                 </li>
                 <li key="business">
-                  <Link className="dropdown-item" to="BusinessWebsite">
+                  <Link className="dropdown-item" to="businessCardDesign">
                     Business Card Design
                   </Link>
                 </li>
                 <li key="seo-optimized">
-                  <Link className="dropdown-item" to="SeoWebsite">
+                  <Link className="dropdown-item" to="IDCardDesign">
                     ID Card Design
                   </Link>
                 </li>
                 <li key="static">
-                  <Link className="dropdown-item" to="StaticWebsite">
+                  <Link className="dropdown-item" to="posterDesign">
                     Poster Design
                   </Link>
                 </li>
                 <li key="dynamic">
-                  <Link className="dropdown-item" to="DynamicWebsite">
+                  <Link className="dropdown-item" to="brouchereDesign">
                     Brouchere Design
                   </Link>
                 </li>
-               
               </ul>
             </li>
           </ul>
@@ -164,22 +161,22 @@ function Navbar() {
             <li className="nav-item dropdown">
               <Link
                 className="nav-link active dropdown-toggle"
-                to="webDevelopment"
+                to="appSoftware"
               >
-                Web Development
+                App & Software
               </Link>
               <ul
                 className="dropdown-menu dropdown-content"
                 aria-labelledby="navbarDropdown"
               >
                 <li key="ecommerce">
-                  <Link className="dropdown-item" to="Ecommerce">
-                    E-Commerce Website
+                  <Link className="dropdown-item" to="applicationDevelopment">
+                    Application Development
                   </Link>
                 </li>
                 <li key="ecommerce">
-                  <Link className="dropdown-item" to="Ecommerce">
-                    E-Commerce Website
+                  <Link className="dropdown-item" to="softwareDevelopment">
+                    Software Development
                   </Link>
                 </li>
               </ul>

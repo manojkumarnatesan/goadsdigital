@@ -113,13 +113,13 @@ function Footer() {
             </div>
           </div>
           <div className="social-links text-center text-md-end">
-          <a href="#" className="me-3">
+          <a href="https://x.com/Goadsdigital" className="me-3">
             <img src={twitterIcon} alt="Twitter" className="social-icon img-fluid" style={{ width: '1.25rem', height: '1.25rem' }} />
           </a>
-          <a href="#" className="me-3">
+          <a href="https://www.facebook.com/goadsdigital.agency" className="me-3">
             <img src={facebookIcon} alt="Facebook" className="social-icon img-fluid" style={{ width: '1.25rem', height: '1.25rem' }} />
           </a>
-          <a href="#" className="me-3">
+          <a href="https://www.instagram.com/goadsdigital1997/" className="me-3">
             <img src={instagramIcon} alt="Instagram" className="social-icon img-fluid" style={{ width: '1.25rem', height: '1.25rem' }} />
           </a>
           <a href="#">
